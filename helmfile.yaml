@@ -6,4 +6,4 @@ repositories:
 releases:
   - name: pet-clinic
     chart: ./pet-chart
-    installed: false 
+    installed: true 

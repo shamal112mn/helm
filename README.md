@@ -10,10 +10,10 @@ How to use helmfile with github
 </li>
  
  <li> 3 clone project</li>
-<li> cd helm  -> to the helmfile f</li>
-<li> vi helmfile to update false to true</li>
+<li> cd helm  -> to the helmfile </li>
+<li> vi helmfile -> to update false to true</li>
 <li> run: helmfile sync    and will install helmcart</li>
-<li> get nodeport IP and srv port</li>
+<li> get nodeport IP and srv port -> kubectl get all</li>
 <li> for minikube run:  minikube service serviceName --url </li>
 <li> </li>
 <li> to Uninstall</li>

@@ -5,5 +5,5 @@ repositories:
 
 releases:
   - name: pet-clinic
-    chart: helm/pet-chart
+    chart: ./pet-chart
     installed: false 

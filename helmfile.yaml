@@ -1,0 +1,9 @@
+---
+repositories:
+  - name: petclinic-helm
+    url: git+https://github.com/shamal112mn/helm@pet-chart?ref=master&sparse=0
+
+releases:
+  - name: pet-clinic
+    chart: helm/pet-chart
+    installed: false 
